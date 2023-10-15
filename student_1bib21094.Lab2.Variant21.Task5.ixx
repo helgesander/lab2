@@ -1,12 +1,14 @@
+module;
+
 #include <cmath>
 
 export module student_1bib21094.Lab2.Variant21.Task5;
 
 namespace RBPO::Lab2::Variant21::Task5 {
-	double function1(double, double);
-	double function2(double);
-	double function3(int);
-	double function4(double);
+	export double function1(double, double);
+	export double function2(double);
+	export double function3(int);
+	export double function4(double);
 	double a(int);
 }
 
@@ -36,7 +38,7 @@ double RBPO::Lab2::Variant21::Task5::function4(double e) {
 		nextSum = a(i);
 		sum += a(i);
 		k = i++;
-	} while (std::abs(nextSum - prevSum) <= e);
+	} while (std::abs(nextSum - prevSum) > e);
 	return sum;
 }
 

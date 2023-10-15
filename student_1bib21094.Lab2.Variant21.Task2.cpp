@@ -1,3 +1,5 @@
+module;
+
 #include <cmath>
 
 module student_1bib21094.Lab2.Variant21.Task2;
@@ -20,7 +22,10 @@ double RBPO::Lab2::Variant21::Task2::function2(double x) {
 double RBPO::Lab2::Variant21::Task2::function3(int n) {
 	double sum = 0.0;
 	int i = 0;
-	while (i++ <= n) sum += a(i);
+	while (i <= n) {
+		sum += a(i);
+		i++;
+	}
 	return sum;
 }
 

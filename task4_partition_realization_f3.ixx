@@ -1,4 +1,4 @@
-//module;
+module;
 
 export module student_1bib21094.Lab2.Variant21.Task4:f3;
 
