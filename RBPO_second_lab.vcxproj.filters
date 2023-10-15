@@ -63,5 +63,8 @@
     <ClCompile Include="task4_partition_realization_f4.ixx">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="student_1bib21094.Lab2.Variant21.Task5.ixx">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

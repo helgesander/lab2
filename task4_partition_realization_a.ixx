@@ -1,7 +1,6 @@
-module;
 export module student_1bib21094.Lab2.Variant21.Task4:a;
 
-#include <cmath>
+#include <cmath>;
 
 namespace RBPO::Lab2::Variant21::Task4 {
 	double a(int i) {

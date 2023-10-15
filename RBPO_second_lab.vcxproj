@@ -134,6 +134,7 @@
     <ClCompile Include="student_1bib21094.Lab2.Variant21.Task2.ixx" />
     <ClCompile Include="student_1bib21094.Lab2.Variant21.Task3.ixx" />
     <ClCompile Include="student_1bib21094.Lab2.Variant21.Task4.ixx" />
+    <ClCompile Include="student_1bib21094.Lab2.Variant21.Task5.ixx" />
     <ClCompile Include="task3_module_realization_a.cpp" />
     <ClCompile Include="task3_module_realization_f1.cpp" />
     <ClCompile Include="task3_module_realization_f2.cpp" />
